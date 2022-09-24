@@ -1,0 +1,83 @@
+.App{
+    width: 1400px;
+   border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+h4{
+    margin-right: 30px;
+}
+.filter{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 700px;
+    
+
+}
+
+.filter select{
+    width: 150px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.filter input{
+    width: 150px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.main-table{
+    
+    width: 100%;
+    text-align: center;
+    min-height: 200px;
+ 
+}
+
+.main-table td{
+    padding: 5px;
+}
+
+.pagination{
+   
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pagination ul{
+   
+    display: flex;
+   
+    
+}
+.pagination ul li{
+   
+    list-style: none;
+   width: 30px;
+   height: 30px;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 30px;
+    
+}
+
+.pagination ul li a{
+   
+   text-decoration: none;
+   font-weight: 700;
+   color: blue;
+    
+}
+
+.active{
+    background-color: rgb(252, 248, 40);
+}
